@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ResponsiveVoice Example</title>
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+  </head>
+  <body>
+    <h1>Text-to-Speech Example</h1>
+    <p>Click the button to listen to the text:</p>
+    <button onclick="speakText()">Speak</button>
+
+    <script>
+      function speakText() {
+        var text =
+          "Hello, this is a text-to-speech example using ResponsiveVoice.";
+        responsiveVoice.speak(text);
+      }
+    </script>
+  </body>
+</html>
